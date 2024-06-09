@@ -26,7 +26,7 @@ document.getElementById("check").addEventListener("click", function (event) {
 
   if (!nowCities.includes(cityName)) {
     document.getElementById("answer").innerHTML =
-      "Please enter a valid city name of Pakistan.";
+      "Please enter a valid city name";
     return;
   }
 
